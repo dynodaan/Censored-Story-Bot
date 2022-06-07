@@ -41,7 +41,6 @@ def askAi():
     
   content = ("make a 1000 word" + type + " " + abto + about)
   
-  size = size.lower()
   type = type.lower()
   about = about.lower()
   content = content.lower()
