@@ -31,8 +31,6 @@ def open_ai(content):
 
 
 def askAi():
-  #size = str(input("How many words?: "))
-  size = "1000"
   type = str(input("A story or letter or other?: "))
   abto = str(input("A " + type + " about or to someone?: "))
   abto = abto.lower()
@@ -41,7 +39,7 @@ def askAi():
   else:
     about = str(input("A " + type +  " " + abto + "?: "))
     
-  content = ("make a" + size + "word" + type + " " + abto + about)
+  content = ("make a 1000 word" + type + " " + abto + about)
   
   size = size.lower()
   type = type.lower()
